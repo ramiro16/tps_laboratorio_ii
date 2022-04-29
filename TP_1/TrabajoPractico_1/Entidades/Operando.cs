@@ -9,6 +9,24 @@ namespace Entidades
     public class Operando
     {
         private double numero;
+        ///ORIGINAL
+        //public Operando()
+        //{
+        //    this.numero = 0;
+        //}
+
+        //public Operando(double numero)
+        //{
+        //    this.numero = numero;
+        //}
+
+        //public Operando(string numero)
+        //    : this(Convert.ToDouble(numero))
+        //{
+
+        //}
+
+        /// NUEVO
         public Operando()
         {
             this.numero = 0;
@@ -20,10 +38,10 @@ namespace Entidades
         }
 
         public Operando(string numero)
-            : this(Convert.ToDouble(numero))
         {
-
+            this.numero = ValidarOperando(numero);
         }
+
 
         public string Numero
         {
@@ -85,7 +103,7 @@ namespace Entidades
 
             else
             {
-                retorno = "Valor inválido";
+                retorno = "Valor invalido";
             }
 
             return retorno;
@@ -93,7 +111,7 @@ namespace Entidades
 
         public string DecimalBinario(double numero)
         {
-            string retorno = "Valor inválido";
+            string retorno = "Valor invalido";
             double auxNumero = Math.Abs(numero);
 
             int resultadoDivision = (int)auxNumero;
@@ -116,7 +134,6 @@ namespace Entidades
         public string DecimalBinario(string numero)
         {
             double numConver = Convert.ToDouble(numero);
-
             return DecimalBinario(numConver);
         }
 
@@ -140,7 +157,7 @@ namespace Entidades
             if (n2.numero == 0)
             {
                 return double.MinValue;
-                
+
             }
             else
             {

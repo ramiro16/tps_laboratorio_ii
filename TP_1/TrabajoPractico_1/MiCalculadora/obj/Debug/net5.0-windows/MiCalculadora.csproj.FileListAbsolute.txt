@@ -19,6 +19,13 @@ C:\Users\admin\Desktop\Examen\TPs\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug
 C:\Users\admin\Desktop\Examen\TPs\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\Entidades.dll
 C:\Users\admin\Desktop\Examen\TPs\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\Entidades.pdb
 C:\Users\admin\Desktop\Examen\TPs\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.CopyComplete
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.FormCalculadora.resources
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.AssemblyInfo.cs
+C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\MiCalculadora.exe
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\MiCalculadora.deps.json
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\MiCalculadora.runtimeconfig.json
@@ -28,13 +35,6 @@ C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-win
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\MiCalculadora.pdb
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\Entidades.dll
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\bin\Debug\net5.0-windows\Entidades.pdb
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.AssemblyReference.cache
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.FormCalculadora.resources
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.GenerateResource.cache
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.AssemblyInfoInputs.cache
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.AssemblyInfo.cs
-C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.csproj.CopyComplete
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\MiCalculadora.dll
 C:\Users\admin\Desktop\TP_1\TrabajoPractico_1\MiCalculadora\obj\Debug\net5.0-windows\ref\MiCalculadora.dll

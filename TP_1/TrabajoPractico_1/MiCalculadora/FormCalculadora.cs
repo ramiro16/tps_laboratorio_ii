@@ -34,19 +34,36 @@ namespace MiCalculadora
         {
             Operando num1 = new Operando(numero1);
             Operando num2 = new Operando(numero2);
-            char simbolo = Convert.ToChar(operador);
-            double respuesta = Calculadora.Operar(num1, num2, simbolo);
+            char simbolo = '+';
 
+            if(!char.TryParse(operador, out simbolo))
+            {
+                simbolo = '+';
+            }
+
+            double respuesta = Calculadora.Operar(num1, num2, simbolo);
             return respuesta;
+
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
             double resultado;
+
+            if(cmbOperador.SelectedItem == null) 
+            {
+                cmbOperador.SelectedItem = "+";
+            }
+                
+
             resultado = FormCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.SelectedItem.ToString());
             lblResultado.Text = resultado.ToString();
 
             StringBuilder sb = new StringBuilder();
+            
+            if(txtNumero1.Text == "") { txtNumero1.Text = "0"; }
+            if(txtNumero2.Text == "") { txtNumero2.Text = "0"; }
+
             sb.Append($"{txtNumero1.Text} {cmbOperador.SelectedItem.ToString()} {txtNumero2.Text} = {resultado.ToString()}");
 
             lstOperaciones.Items.Add(sb.ToString());
@@ -54,7 +71,7 @@ namespace MiCalculadora
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-             this.Close();
+            this.Close();
         }
 
         private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
@@ -76,6 +93,10 @@ namespace MiCalculadora
                 auxCadena = operando.BinarioDecimal(auxCadena);
 
                 lblResultado.Text = auxCadena;
+            }
+            else
+            {
+                lblResultado.Text = "0";
             }
         }
 

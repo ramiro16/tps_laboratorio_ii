@@ -10,28 +10,17 @@ namespace Entidades
     {
         private static char ValidarOperador(char operador)
         {
-            char retorno = '+';
-
             switch(operador)
             {
-                case '+':
-                    retorno = '+';
-                    break;
                 case '-':
-                    retorno = '-';
-                    break;
+                    return '-';
                 case '*':
-                    retorno = '*';
-                    break;
+                    return '*';
                 case '/':
-                    retorno = '/';
-                    break;
+                    return '/';
                 default:
-                    retorno = '+';
-                    break;
+                    return '+';
             }
-
-            return retorno;
         }
 
         public static double Operar(Operando num1, Operando num2, char operacion)
